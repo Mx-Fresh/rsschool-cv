@@ -1,8 +1,8 @@
 # Melnic Andrei
 ## Contacts:
-**Location:** Moldova, Chisinau
-**Phone:** +37396429296
-**Email:** mr.melnic@gmail.com      
+- **Location:** Moldova, Chisinau
+- **Phone:** +37396429296
+- **Email:** mr.melnic@gmail.com      
 
 ## About me:
 I am QA Engineer with experience of manual testing of desktop, web and mobile software. This includes Functional, Regression, Exploratory, Ad-hoc, E2E and Non-Functional testing in the Post-Trading, eLearning, Social Networking industries. I like to try and learn new technologies and now I want to challenge myself in role of Frontend developer.
@@ -27,6 +27,7 @@ public String fizzString(String str) {
 ```
 ## Career Experience:
 2014 – Present: Manual QA Engineer, Post-Trade Services, Allied Testing
+
 In the OTC market of Foreign Exchange, post trade services are the processes through which all administration details of a trade are confirmed, the buyer and seller exchange payment details and change records of ownership. From credit management and risk to confirmation and settlement, whether a trading, clearing or settlement player, you can connect to counterparties around the world and feed more trades into your straight-through processing (STP) system.
 ### Responsibilities: 
 * Analyzed client requirements, user stories, elaboration documents
@@ -45,10 +46,13 @@ In the OTC market of Foreign Exchange, post trade services are the processes thr
 * Troubleshot system/environment problems
 
 ## Education:
-May 2020: [JavaScript course](https://www.sololearn.com/Certificate/1024-2451031/jpg/)
-Nov 2017: [Java course](https://www.sololearn.com/Certificate/1068-2451031/jpg/)
-Nov 2017: [SQL course](https://www.sololearn.com/Certificate/1060-2451031/jpg/)
-2008 - 2012: Bachelor's degree in "Systems and Computer Engineering"
+### Bachelor's degree
+* 2008 - 2012:  Systems and Computer Engineering
+### Courses:
+* May 2020: [JavaScript course](https://www.sololearn.com/Certificate/1024-2451031/jpg/)
+* Nov 2017: [Java course](https://www.sololearn.com/Certificate/1068-2451031/jpg/)
+* Nov 2017: [SQL course](https://www.sololearn.com/Certificate/1060-2451031/jpg/)
+
 
 ## Languages:
 * Russian:  Native language.
