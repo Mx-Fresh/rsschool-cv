@@ -80,6 +80,13 @@ a:hover {
   color: gray;
 }
 
+.footer a {
+  color:#fff;  
+}
+.footer a:hover {
+  color:gold;
+}
+
 ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: gold; /* Change the color */
@@ -93,8 +100,9 @@ ul li::before {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   padding-left: 4%;
-  background-color: #000;
+  background-color:gray;
   color: #fff;
 }
 
