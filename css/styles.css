@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+  color: dimgray;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.top-line {
+  height: 10px;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  border-bottom: 2px solid darkgrey;
+}
+
+.header div {
+  padding-left: 4%;
+}
+
+.header-first-column {
+  flex: 4;
+  justify-self: center;
+  text-align: left;
+}
+
+.header-second-column {
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.header-second-column img {
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: gold;
+}
+
+.header-second-column img {
+  align-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+.main section>ul>li>b {
+  color: gold;
+}
+
+a {
+  color:gold;  
+}
+a:hover {
+  color: gray;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: gold; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 4%;
+  background-color: #000;
+  color: #fff;
+}
+
