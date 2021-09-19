@@ -31,7 +31,7 @@
     </div>
 
     <div class="burger-wrapper">
-      <div class="burger-menu-icon"><img src="imgs/menu-icon.png" alt="menu-icon" width="50px" height="50px"></div>
+      <div class="burger-menu-icon"><img src="imgs/menu-icon.png" alt="menu-icon" width="50" height="50"></div>
       <div class="burger-menu">
         <nav>
           <ul>
@@ -164,17 +164,15 @@
       </div>
     </footer>
   </div>
+  <script> 
+    const menuIcon = document.getElementsByClassName("burger-menu-icon");
+    menuIcon[0].addEventListener('click', toggle);
+    //document.getElementsByClassName("burger-menu-icon").addEventListener('click', toggle);
+    function toggle() {
+      console.log("click");
+      const menu = document.getElementsByClassName("burger-menu");
+      menu[0].classList.toggle('open');
+    }
+  </script>
 </body>
 </html>
-
-<script>
-    
-  const menuIcon = document.getElementsByClassName("burger-menu-icon");
-  menuIcon[0].addEventListener('click', toggle);
-  //document.getElementsByClassName("burger-menu-icon").addEventListener('click', toggle);
-  function toggle() {
-    console.log("click");
-    const menu = document.getElementsByClassName("burger-menu");
-    menu[0].classList.toggle('open');
-  }
-</script>
